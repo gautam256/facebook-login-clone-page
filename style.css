@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background: #f0f2f5;
+  }
+  
+  /* Container */
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 60px;
+    padding: 20px;
+  }
+  
+  /* Left Side */
+  
+  .left {
+    max-width: 420px;
+  }
+  
+  .left h1 {
+    color: #1877f2;
+    font-size: 56px;
+    font-weight: bold;
+  }
+  
+  .left h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 10px;
+    color: #1c1e21;
+  }
+  
+  /* Right Side */
+  
+  .right {
+    max-width: 360px;
+    width: 100%;
+  }
+  
+  .login-box {
+    background: #fff;
+    padding: 22px;
+    border-radius: 10px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Inputs */
+  
+  .login-box input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .login-box input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+  }
+  
+  /* Login button */
+  
+  .login-btn {
+    width: 100%;
+    padding: 14px;
+    background: #1877f2;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .login-btn:hover {
+    background: #166fe5;
+  }
+  
+  /* Forgot */
+  
+  .forgot {
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .forgot:hover {
+    text-decoration: underline;
+  }
+  
+  /* Create button */
+  
+  .create-btn {
+    width: 100%;
+    padding: 14px;
+    background: #42b72a;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .create-btn:hover {
+    background: #36a420;
+  }
+  
+  /* Page text */
+  
+  .page-text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  /* Responsive */
+  
+  @media (max-width: 900px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+      gap: 30px;
+    }
+  
+    .left h1 {
+      font-size: 48px;
+    }
+  
+    .left h2 {
+      font-size: 20px;
+    }
+  }
+  
